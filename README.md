@@ -1,16 +1,26 @@
 <p align="center"><img width="196" height="196" src="https://i.imgur.com/zIXGZCg.png"></p>
 <h1 align="center">PicWiz</h1>
 
+
 A Manifest V3 Browser Extension that makes it possible to perform various operations on images via [ImgOps.com](https://ImgOps.com) by either selecting an image through the context menu or clicking the extension icon to view all images in the current tab and choosing an image.
 
 This extension is not affiliated with ImgOps.com - it merely simplifies the way you can access the website.
 
+<sub>For the Manifest V2 extension go here: [PicWiz Legacy](https://github.com/majin-cs/PicWiz-Legacy) (*may not yet be supported by your browser)</sub>
+
 ----
 ## Installation
 
+<a href="https://addons.mozilla.org/en-US/firefox/addon/picwiz/">
+ <picture>
+    <source srcset="https://i.imgur.com/ZluoP7T.png" media="(prefers-color-scheme: dark)">
+    <img height="50" src="https://i.imgur.com/4PobQqE.png" alt="Firefox add-ons">
+ </picture>
+</a>
+
+#### Or from GitHub:
 - Download the zip from the [release section](https://github.com/majin-cs/PicWiz/releases) and either [directly use it in Firefox](https://extensionworkshop.com/documentation/publish/submitting-an-add-on/) or unpack it and [use it in Chrome ](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked)
-- Firefox Add-Ons (coming soon)
-- Chrome Webstore (coming soon)
+
 
 ## Features
 

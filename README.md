@@ -6,7 +6,7 @@ A Manifest V3 Browser Extension that makes it possible to perform various operat
 
 This extension is not affiliated with ImgOps.com - it merely simplifies the way you can access the website.
 
-<sub>For the Manifest V2 extension go here: [PicWiz Legacy](https://github.com/majin-cs/PicWiz-Legacy) (*may not yet be supported by your browser)</sub>
+<sub>For the Manifest V2 extension go here: [PicWiz Legacy](https://github.com/majin-cs/PicWiz-Legacy)</sub>
 
 ----
 ## Installation

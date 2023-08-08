@@ -11,14 +11,7 @@ This extension is not affiliated with ImgOps.com - it merely simplifies the way 
 ----
 ## Installation
 
-<a href="https://addons.mozilla.org/en-US/firefox/addon/picwiz/">
- <picture>
-    <source srcset="https://i.imgur.com/ZluoP7T.png" media="(prefers-color-scheme: dark)">
-    <img height="50" src="https://i.imgur.com/4PobQqE.png" alt="Firefox add-ons">
- </picture>
-</a>
-
-#### Or from GitHub:
+#### From GitHub:
 - Download the zip from the [release section](https://github.com/majin-cs/PicWiz/releases) and either [directly use it in Firefox](https://extensionworkshop.com/documentation/publish/submitting-an-add-on/) or unpack it and [use it in Chrome ](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked)
 
 

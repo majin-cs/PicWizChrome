@@ -75,20 +75,25 @@ browserAPI.runtime.onMessage.addListener(async ({ action, img }, sender, sendRes
         }
     }
 });
-browserAPI.runtime.onMessage.addListener(async ({ action }, sender, sendResponse) => {
+browserAPI.runtime.onMessage.addListener(({ action }, sender, sendResponse) => {
     if (action === actions.getAllImgUrls) {
-        try {
-            const imgElements = Array.from(document.querySelectorAll('img'));
-            const imgUrls =
-                imgElements
-                    .filter(img => img.src && isValidImgUrl(img.src))
-                    .map(img => ({
-                        url: img.src,
-                        imgOpsLink: `${IMG_OPS_URL}${img.src}`,
-                    }));
-            sendResponse({ imgUrls });
-        } catch {
-            sendErrorMessage(sendResponse, IMAGE_LOAD_ERR);
-        }
+        const sendImgUrls = () => {
+            try {
+                const imgElements = Array.from(document.querySelectorAll('img'));
+                const imgUrls = imgElements
+                    .filter(img => img.src)
+                    .map(img => img.src);
+                /*.map(img => ({
+                    url: img.src,
+                    imgOpsLink: `${IMG_OPS_URL}${img.src}`,
+                }));*/
+                sendResponse({ imgUrls });
+            } catch (error) {
+                sendErrorMessage(sendResponse, IMAGE_LOAD_ERR);
+            }
+        };
+        new Promise(resolve => {
+            resolve(sendImgUrls());
+        });
     }
 });

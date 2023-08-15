@@ -3,7 +3,7 @@
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
   "author": "github.com/majin-cs",
-  "version": "1.0.1",
+  "version": "1.1",
   "default_locale": "en",
   "icons": {
     "16": "icons/16.png",
@@ -22,8 +22,24 @@
       "196": "icons/196.png"
     }
   },
+  "commands": {
+    "take-screenshot": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S",
+        "chromeos": "Ctrl+Shift+S",
+        "linux": "Ctrl+Shift+S"
+      },
+      "description": "__MSG_capture__"
+    }
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": false
+  },
   "background": {
-    "service_worker": "background/service_worker.js"
+    "service_worker": "background/service_worker.js",
+    "type": "module"
   },
   "content_scripts": [
     {
@@ -31,5 +47,25 @@
       "js": ["content/content.js"]
     }
   ],
-  "permissions": ["contextMenus", "activeTab"]
+  "web_accessible_resources": [
+    {
+      "matches": ["<all_urls>"],
+      "resources": [
+        "shared/utils.js",
+        "shared/constants.js",
+        "content/capture.js",
+        "content/capture.css"
+      ]
+    }
+  ],
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "commands",
+    "clipboardWrite",
+    "notifications",
+    "scripting",
+    "storage",
+    "downloads"
+  ]
 }

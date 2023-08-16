@@ -33,6 +33,7 @@ This extension is not affiliated with ImgOps.com - it merely simplifies the way 
 | Name             | Toggles                                                 |
 | ---------------- | ------------------------------------------------------- |
 | loadImagesOnOpen | Scrape pictures and display them when opening the popup |
+| notifications    | Notifications                                           |
 
 ## Shortcuts
 

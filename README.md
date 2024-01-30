@@ -45,7 +45,7 @@ This extension is not affiliated with ImgOps.com - it merely simplifies the way 
 
 | Name             | Required for                                                             | 
 | ---------------- | ------------------------------------------------------------------------ |
-| "contextMenus",  | Displaying the ImgOps menu option when right-clicking a picture          |
+| "contextMenus"   | Displaying the ImgOps menu option when right-clicking a picture          |
 | "activeTab"      | Scraping images and taking the screenshot                                |
 | "commands"       | Shortcuts                                                                |
 | "clipboardWrite" | Copying screenhots to the clipboard                                      |

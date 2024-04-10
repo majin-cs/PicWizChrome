@@ -1,9 +1,9 @@
 <p align="center"><img width="196" height="196" src="https://i.imgur.com/zIXGZCg.png"></p>
 <h1 align="center">PicWiz</h1>
 
-> Capture screenshots, right-click on pictures, or get an an overview of all pics in the tab, to either (bulk) download or use them on [ImgOps.com](https://ImgOps.com).
+Capture screenshots, right-click on pictures, or get an an overview of all pics in the tab, to either (bulk) download or use them on [ImgOps.com](https://ImgOps.com).
 
-This extension is not affiliated with ImgOps.com - it merely simplifies the way you can access the website.
+> This extension is not affiliated with ImgOps.com - it merely simplifies the way you can access the website.
 
 <sub>Chrome only! For Firefox support (Manifest V2) go here: [PicWiz Legacy](https://github.com/majin-cs/PicWiz-Legacy)</sub>
 

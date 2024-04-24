@@ -1,5 +1,11 @@
+# ⚠️ Deprecation Notice ⚠️
+
+### This chrome-only version of my PicWiz Extension will no longer be maintained or updated in any way. 
+### Click [here](https://github.com/majin-cs/PicWiz) for the [Manifest V3 version](https://github.com/majin-cs/PicWiz), that supports both Chrome and Firefox. Or use the still maintained [Manifest V2 version](https://github.com/majin-cs/PicWiz-Legacy/releases).
+
+<s>
 <p align="center"><img width="196" height="196" src="https://i.imgur.com/zIXGZCg.png"></p>
-<h1 align="center">PicWiz</h1>
+<h1 align="center">PicWiz Chrome</h1>
 
 Capture screenshots, right-click on pictures, or get an an overview of all pics in the tab, to either (bulk) download or use them on [ImgOps.com](https://ImgOps.com).
 
@@ -13,7 +19,7 @@ Capture screenshots, right-click on pictures, or get an an overview of all pics 
 
 #### From GitHub:
 
-1. Download the zip from the [release section](https://github.com/majin-cs/PicWiz-Legacy/releases) 
+1. Download the zip from the [release section](https://github.com/majin-cs/PicWiz/releases) 
 2. Unpack it and use it indefinitely in **Chrome** by visting [chrome://extensions/](chrome://extensions/), clicking on "Load unpacked" in the top left corner and selecting the unzipped extension folder
 
 ## Features

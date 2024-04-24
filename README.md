@@ -1,9 +1,10 @@
+____
 # ⚠️ Deprecation Notice ⚠️
 
 ### This chrome-only version of my PicWiz Extension will no longer be maintained or updated in any way. 
-### Click [here](https://github.com/majin-cs/PicWiz) for the [Manifest V3 version](https://github.com/majin-cs/PicWiz), that supports both Chrome and Firefox. Or use the still maintained [Manifest V2 version](https://github.com/majin-cs/PicWiz-Legacy/releases).
+### Click [here](https://github.com/majin-cs/PicWiz) for the [Manifest V3 version](https://github.com/majin-cs/PicWiz), that supports both Chrome and Firefox. Or use the still maintained [Manifest V2 version](https://github.com/majin-cs/PicWiz-Legacy).
+____
 
-<s>
 <p align="center"><img width="196" height="196" src="https://i.imgur.com/zIXGZCg.png"></p>
 <h1 align="center">PicWiz Chrome</h1>
 
